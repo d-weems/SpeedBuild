@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20210507020337) do
+ActiveRecord::Schema.define(version: 20210612072123) do
 
   create_table "categories", force: :cascade do |t|
     t.string "name"
@@ -31,9 +31,6 @@ ActiveRecord::Schema.define(version: 20210507020337) do
     t.integer "lego_set_id_id"
     t.integer "category_id_id"
     t.integer "user_id_id"
-    t.integer "hours"
-    t.integer "minutes"
-    t.integer "seconds"
     t.integer "milliseconds"
     t.date "run_date"
     t.datetime "created_at", null: false
