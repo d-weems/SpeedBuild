@@ -1,0 +1,88 @@
+{
+  "MiniTest": {
+    "coverage": {
+      "/Users/Darien/Desktop/RecWork/SpeedBuild/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Darien/Desktop/RecWork/SpeedBuild/app/models/category.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/Darien/Desktop/RecWork/SpeedBuild/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/Darien/Desktop/RecWork/SpeedBuild/app/models/set_run.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        3,
+        null,
+        1,
+        10,
+        null
+      ],
+      "/Users/Darien/Desktop/RecWork/SpeedBuild/app/models/lego_set.rb": [
+        1,
+        1,
+        null,
+        2,
+        2,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/Darien/Desktop/RecWork/SpeedBuild/app/models/user.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/Darien/Desktop/RecWork/SpeedBuild/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/Darien/Desktop/RecWork/SpeedBuild/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/Users/Darien/Desktop/RecWork/SpeedBuild/app/controllers/application_controller.rb": [
+        0,
+        0,
+        0
+      ],
+      "/Users/Darien/Desktop/RecWork/SpeedBuild/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/Darien/Desktop/RecWork/SpeedBuild/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1623658389
+  }
+}
