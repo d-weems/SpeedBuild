@@ -28,16 +28,16 @@ ActiveRecord::Schema.define(version: 20210612072123) do
   end
 
   create_table "set_runs", force: :cascade do |t|
-    t.integer "lego_set_id_id"
-    t.integer "category_id_id"
-    t.integer "user_id_id"
+    t.integer "lego_set_id"
+    t.integer "category_id"
+    t.integer "user_id"
     t.integer "milliseconds"
     t.date "run_date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["category_id_id"], name: "index_set_runs_on_category_id_id"
-    t.index ["lego_set_id_id"], name: "index_set_runs_on_lego_set_id_id"
-    t.index ["user_id_id"], name: "index_set_runs_on_user_id_id"
+    t.index ["category_id"], name: "index_set_runs_on_category_id"
+    t.index ["lego_set_id"], name: "index_set_runs_on_lego_set_id"
+    t.index ["user_id"], name: "index_set_runs_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
